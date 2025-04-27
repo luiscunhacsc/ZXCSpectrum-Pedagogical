@@ -1,7 +1,3 @@
-Great! Here's the improved and more "professional" version of the `README.md`, now including nice badges at the top and a cooler style while keeping the rigor:
-
----
-
 # 🎮 ZX Spectrum Emulator (Work in Progress)
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
