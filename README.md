@@ -61,7 +61,3 @@ This project is licensed under the [MIT License](LICENSE), respecting the terms 
 > The Z80 CPU core is © 2019 Nicolas Allemand, provided under the MIT License.  
 > The ZX Spectrum system code (`main.c`) was developed independently for this project.
 
----
-
-Would you also like me to create a small "building and running" section if you plan to include a simple `Makefile` or basic compilation instructions later? 🔥  
-It would make it even easier for others (or yourself!) to compile and test. 🚀
