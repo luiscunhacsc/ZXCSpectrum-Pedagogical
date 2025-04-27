@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build zx48",
+        "type": "shell",
+        "command": "E:/msys64/mingw64/bin/gcc.exe",
+        "args": [
+          "main.c",
+          "z80.c",
+          "-o",
+          "zx48.exe",
+          "--",
+          "`pkg-config --cflags --libs sdl2`"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}",
+          "shell": {
+            "executable": "E:/msys64/usr/bin/bash.exe",
+            "args": ["-lc"]
+          }
+        },
+        "group": { "kind": "build", "isDefault": true },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
